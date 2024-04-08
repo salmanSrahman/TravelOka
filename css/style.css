@@ -61,10 +61,18 @@ nav{
     color: var(--primary) !important;
 
 }
-@media screen  and ( max-width:576px) {
+.nav_items i{
+   display: none;
+}
+
+/* nav bar responsive */
+@media screen  and ( max-width:768px) {
     .nav_items a{
         display: none;
     }
+    .nav_items i{
+        display: block;
+     }
     
 }
 
@@ -72,16 +80,92 @@ nav{
             nav part css end
 ============================================== */
 
-
-
-
-
-
 /* ==============================================
-            nav part css start
+            hero banner part css start
 ============================================== */
+.hero_banner{
+    background: url("../Images/hero_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 106px 0;
+}
+.hero_content{
+    text-align: center;
+}
+.hero_content h2{
+    font-size: 64px;
+    font-weight: 600;
+    color: white;
+}
+.hero_content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    width: 676px;
+    margin: 24px auto 48px ;
+}
+.booking_info{
+    width: 900px;
+    padding: 30px;
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 0 auto;
+}
+.booking_info input{
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    border: 0;
+    width: 174px
+}
+.booking_info .find input{
+    padding: 20px 0 20px 40px;
+    background: #FF5400;
+    border-radius: 10px;
+    border: 0;
+}
+.booking_info .find input::placeholder{
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.booking_info input::placeholder{
+    color: #13131880;
+    font-size: 18px;
+
+}
+.booking_info input:focus{
+    outline: 2px solid var(--primary);
+    border: 0;
+}
+.booking_info .select, .find{
+    position: relative;
+}
+.booking_info .find{
+    position: relative;
+    text-align: center;
+}
+.booking_info .select i{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 22px;
+    color: #13131880
+
+}
+.booking_info .find i{
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    font-size: 22px;
+    color: #fff;
+    background: #FF5400;
+
+}
 /* ==============================================
-            nav part css end
+            hero banner part css end
 ============================================== */
 /* ==============================================
             nav part css start
