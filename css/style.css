@@ -87,6 +87,7 @@ nav{
     background: url("../Images/hero_banner.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 106px 0;
 }
 .hero_content{
@@ -137,7 +138,11 @@ nav{
 
 }
 .booking_info input:focus{
-    outline: 2px solid var(--primary);
+    outline: 1px solid var(--primary);
+    border: 0;
+}
+.booking_info .find input:focus{
+    outline: 1px solid white;
     border: 0;
 }
 .booking_info .select, .find{
@@ -163,6 +168,52 @@ nav{
     color: #fff;
     background: #FF5400;
 
+}
+
+@media screen  and ( max-width:768px) {
+    .hero_banner{
+        padding: 32px 0;
+    }
+    .booking_info{
+        flex-direction: column;
+        width: 287px;
+        row-gap: 24px;
+        justify-content: center;
+        margin: 0 auto !important;
+        padding: 20px;
+
+    }
+    .booking_info input{
+        width: 255px;
+    }
+    .hero_content h2{
+        font-size: 22px;
+        
+    }
+    .hero_content p{
+        font-size: 14px;
+        width: 304px;
+        margin: 8px auto 32px ;
+    }
+    .booking_info input::placeholder{
+        font-size: 14px;
+    
+    }
+    .booking_info input{
+        padding: 16px;
+    }
+    .booking_info .find input{
+        padding: 16px 0 16px 30px;
+    }
+    .booking_info .select i{
+        font-size: 16px;
+    
+    }
+    .booking_info .find i{
+        font-size: 16px;
+    
+    }
+    
 }
 /* ==============================================
             hero banner part css end
