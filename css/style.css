@@ -90,6 +90,22 @@ nav{
 
 /* nav bar responsive */
 @media screen  and ( max-width:768px) {
+    section{
+        margin-top: 24px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .para{
+        font-size: 14px;
+    }
+    .btn_primary{
+        padding: 15px 30px;
+        font-size: 14px;
+        
+    }
+    /* common css responsive */
+    
     .nav_items a{
         display: none;
     }
@@ -288,6 +304,25 @@ nav{
     left: 0;
     top: 12px;
 }
+/* responsive */
+
+@media screen and (max-width: 768px){
+
+    .popular_tours_part{
+       flex-direction: column;
+        row-gap: 24px;
+    }
+    .tours_text{
+        width: 100%;
+    }
+    .tours_image{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+
 /* ==============================================
             popular tours part css end
 ============================================== */
