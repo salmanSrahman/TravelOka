@@ -1,6 +1,7 @@
 :root{
     --primary: #0D80CC;
     --secondary: #424247;
+    --third: #13131880;
 }
 *{
     margin: 0;
@@ -26,6 +27,28 @@ a{
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 10px;
+}
+section{
+    margin-top: 100px
+}
+.title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.para{
+    font-size: 16px;
+    line-height: 26px;
+}
+.btn_primary{
+    padding: 16px 35px;
+    background: #FF5400;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 /* ================ common css end =============== */
@@ -170,6 +193,8 @@ nav{
 
 }
 
+/* hero banner responsive */
+
 @media screen  and ( max-width:768px) {
     .hero_banner{
         padding: 32px 0;
@@ -219,10 +244,52 @@ nav{
             hero banner part css end
 ============================================== */
 /* ==============================================
-            nav part css start
+            popular tours part css start
 ============================================== */
+.popular_tours_part{
+    display: flex;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+.tours_text{
+    width: 50%;
+}
+.tours_image{
+    width: 50%;
+}
+.tours_image img{
+    width: 100%;
+}
+.tours_text p{
+    color: var(--third);
+    width: 530px;
+    margin: 24px 0;
+    
+}
+.tours_text ul{
+    margin-bottom: 24px;
+}
+.tours_text li{
+    color: var(--third);
+    padding-bottom: 16px;
+    
+}
+.tours_text .listItem{
+    padding-left: 15px;
+    position: relative;
+}
+.tours_text .listItem span{
+    width: 6px;
+    height: 6px;
+    background: var(--third);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
 /* ==============================================
-            nav part css end
+            popular tours part css end
 ============================================== */
 /* ==============================================
             nav part css start
