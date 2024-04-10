@@ -29,7 +29,7 @@ a{
     padding: 0 10px;
 }
 section{
-    margin-top: 100px
+    margin-top: 130px
 }
 .title{
     color: #131318;
@@ -306,7 +306,6 @@ nav{
     top: 12px;
 }
 /* responsive */
-
 @media screen and (max-width: 768px){
     .popular_tours_part{
        flex-direction: column;
@@ -328,16 +327,51 @@ nav{
     }
 
 }
-
-
 /* ==============================================
             popular tours part css end
 ============================================== */
 /* ==============================================
-            nav part css start
+            why choose part css start
 ============================================== */
+.why_coose_us_content_inner .title{
+    text-align: center;
+}
+.why_coose_us_content_inner>.para{
+   width: 643px;
+   margin: 24px auto 48px;
+   text-align: center;
+}
+.choose_card_inner{
+   display: flex;
+   column-gap: 24px;
+   row-gap: 24px;
+    flex-wrap: wrap;
+    
+}
+.choose_card{
+    width: 509px;
+    padding: 32px;
+    background: #FFFBF7;
+    border-radius: 16px;
+}
+.choose_card:nth-child(2){
+    background: #F4FDFF;
+}
+.choose_card:last-child{
+    margin: 0 auto;
+}
+.choose_card h3{
+    margin: 32px 0 16px;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.choose_card p{
+
+}
+
 /* ==============================================
-            nav part css end
+            why choose part css end
 ============================================== */
 /* ==============================================
             nav part css start
