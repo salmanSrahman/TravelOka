@@ -99,6 +99,7 @@ nav{
     .para{
         font-size: 14px;
         padding: 5px 10px;
+        width: auto;
     }
     .btn_primary{
         padding: 15px 30px;
@@ -366,8 +367,33 @@ nav{
     font-weight: 800;
 
 }
-.choose_card p{
-
+/* responsive */
+@media screen and (max-width: 768px){
+    .why_coose_us_content_inner>.para{
+        width: auto;
+     }
+    .choose_card_inner{
+        display: flex;
+        row-gap: 15px;
+         
+     }
+     .choose_card{
+        width: 100%;
+    }
+    .choose_card:nth-child(2){
+        background: #F4FDFF;
+    }
+    .choose_card:last-child{
+        margin: 0 auto;
+    }
+    .choose_card h3{
+        font-size: 20px;
+    
+    }
+    .choose_card p{
+        padding: 0;
+    
+    }
 }
 
 /* ==============================================
