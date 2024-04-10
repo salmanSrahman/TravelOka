@@ -367,6 +367,7 @@ nav{
     font-weight: 800;
 
 }
+
 /* responsive */
 @media screen and (max-width: 768px){
     .why_coose_us_content_inner>.para{
@@ -400,10 +401,46 @@ nav{
             why choose part css end
 ============================================== */
 /* ==============================================
-            nav part css start
+            deals & discount part css start
 ============================================== */
+.discount_part_content_inner .title{
+    text-align: center;
+}
+
+.discount_part_content_inner>.para{
+   width: 643px;
+   margin: 24px auto 48px;
+   text-align: center;
+}
+.discount_card{
+    background: url("../Images/discount1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 56px;
+    width: 100%;
+}
+.discount_text{
+    color: red;
+    background: rgba(255, 255, 255, 0.8);
+    width: 579px;
+    padding: 50px;
+    border-radius: 16px;
+    margin-left: auto;
+    
+}
+.discount_text h2{
+
+}
+.discount_text p{
+
+}
+.discount_text h4{
+
+}
+
 /* ==============================================
-            nav part css end
+            deals & discount part css end
 ============================================== */
 /* ==============================================
             nav part css start
