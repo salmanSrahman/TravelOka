@@ -2,6 +2,7 @@
     --primary: #0D80CC;
     --secondary: #424247;
     --third: #13131880;
+    --orange: #FF5400;
 }
 *{
     margin: 0;
@@ -403,6 +404,13 @@ nav{
 /* ==============================================
             deals & discount part css start
 ============================================== */
+
+.discount_card_inner{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin-bottom: 48px;
+}
 .discount_part_content_inner .title{
     text-align: center;
 }
@@ -419,6 +427,17 @@ nav{
     background-position: center;
     padding: 56px;
     width: 100%;
+    border-radius: 16px;
+}
+.discount_card:nth-child(2){
+    background: url("../Images/discount2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 56px;
+    width: 100%;
+    border-radius: 16px;
+  
 }
 .discount_text{
     color: red;
@@ -429,14 +448,53 @@ nav{
     margin-left: auto;
     
 }
+.discount_card:nth-child(2) .discount_text{
+    margin-left: 0;
+}
 .discount_text h2{
+    font-size: 24px;
+    color: #131318;
+    font-weight: 800;
 
 }
 .discount_text p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #5A5A5D;
+    margin: 16px 0;
 
 }
 .discount_text h4{
+    font-size: 20px;
+    color: var(--orange);
+    font-weight: 800;
+    margin-bottom: 24px;
 
+}
+.discount_desciption{
+    display: flex;
+    column-gap:24px;
+    margin-bottom: 24px;
+
+}
+.discount_desciption p{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    color: #5A5A5D;
+    font-size: 16px;
+}
+.discount_desciption p i{
+    color: var(--orange);
+    font-size: 20px;
+
+}
+.discount_part_content_inner button{
+    /* display: flex !important;
+    justify-content: center !important;
+    align-items: center; */
+    display: block;
+    margin: 0 auto;
 }
 
 /* ==============================================
