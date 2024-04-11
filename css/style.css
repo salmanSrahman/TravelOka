@@ -426,7 +426,6 @@ nav{
     background-size: cover;
     background-position: center;
     padding: 56px;
-    width: 100%;
     border-radius: 16px;
 }
 .discount_card:nth-child(2){
@@ -435,7 +434,6 @@ nav{
     background-size: cover;
     background-position: center;
     padding: 56px;
-    width: 100%;
     border-radius: 16px;
   
 }
@@ -490,9 +488,6 @@ nav{
 
 }
 .discount_part_content_inner button{
-    /* display: flex !important;
-    justify-content: center !important;
-    align-items: center; */
     display: block;
     margin: 0 auto;
 }
@@ -501,10 +496,77 @@ nav{
             deals & discount part css end
 ============================================== */
 /* ==============================================
-            nav part css start
+            perfect place css start
 ============================================== */
+.perfect_place_part{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.perfect_place_text{
+    width: 50%;
+}
+.perfect_place_image{
+    width: 50%;
+}
+.perfect_place_image img{
+    width: 100%;
+}
+.perfect_place_text h2{
+    width: 448px;
+}
+.perfect_place_text p{
+    color: var(--third);
+    width: 530px;
+    margin: 24px 0;
+    
+}
+.perfect_place_text ul{
+    margin-bottom: 24px;
+}
+.perfect_place_text li{
+    color: #131318;
+    padding-bottom: 16px;
+    
+}
+.perfect_place_text .listItem{
+    padding-left: 15px;
+    position: relative;
+}
+.perfect_place_text .listItem span{
+    width: 6px;
+    height: 6px;
+    background: #131318;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+/* responsive */
+@media screen and (max-width: 768px){
+    .perfect_place_part{
+       flex-direction: column;
+        row-gap: 24px;
+    }
+    .perfect_place_text{
+        width: 100%;
+    }
+    .perfect_place_image{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .perfect_place_text p{
+        width: auto;
+        padding: 5px 10px;
+    }
+    .perfect_place_text .listItem{
+        margin-left: 10px;
+    }
+
+}
 /* ==============================================
-            nav part css end
+            perfect place css end
 ============================================== */
 /* ==============================================
             nav part css start
