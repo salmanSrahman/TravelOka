@@ -706,6 +706,74 @@ nav{
             perfect place css end
 ============================================== */
 /* ==============================================
+            guides part css start
+============================================== */
+.guides_inner h2{
+    margin-bottom: 48px;
+}
+.guides_places{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.place_card{
+    position: relative;
+    width:18%;
+}
+.place_card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.place_text{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: white;
+}
+
+/* responsive */
+@media screen and (max-width:575px){
+    .guides_inner h2{
+        margin-bottom: 24px;
+    }
+    .place_card{
+        width: 48%;
+    }
+    .guides_places{
+        row-gap: 10px;
+        column-gap:10px;
+    }
+    .place_text h3{
+        font-size: 16px;
+    }
+    .place_text h4{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    .guides_inner h2{
+        margin-bottom: 24px;
+    }
+    .place_card{
+        width: auto;
+    }
+    .guides_places{
+        row-gap: 10px;
+        column-gap:10px;
+    }
+    .place_text h3{
+        font-size: 16px;
+    }
+    .place_text h4{
+        font-size: 14px;
+    }
+    
+}
+
+/* ==============================================
+            guides part css end
+============================================== */
+/* ==============================================
             newsletter part css start
 ============================================== */
 .newsletter_inner{
@@ -914,7 +982,7 @@ footer{
     color: rgba(255, 255, 255, 0.7);
     font-size: 20px;
 }
-.copyright{
+.footer_inner .copyright{
     color: rgba(255, 255, 255, 0.7);
     font-size: 16px;
     margin-top: 50px;
@@ -951,21 +1019,4 @@ footer{
 /* ==============================================
             footer part css end
 ============================================== */
-/* ==============================================
-            nav part css start
-============================================== */
-/* ==============================================
-            nav part css end
-============================================== */
-/* ==============================================
-            nav part css start
-============================================== */
-/* ==============================================
-            nav part css end
-============================================== */
-/* ==============================================
-            nav part css start
-============================================== */
-/* ==============================================
-            nav part css end
-============================================== */
+
