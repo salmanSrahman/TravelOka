@@ -727,6 +727,7 @@ nav{
 }
 .newsletter_image{
     width: 60%;
+    position: relative;
 }
 .newsletter_image img{
     width: 100%;
@@ -753,6 +754,26 @@ nav{
 }
 .newsletter_form button{
     width:100%;
+
+}
+.newsletter_badge{
+padding: 20px 45px;
+background: var(--orange);
+border-radius: 16px;
+position: absolute;
+right: 10px;
+bottom: 65px;
+transform: rotate(-23deg);
+}
+.newsletter_badge h4{
+    font-size: 24px;
+    color: white;
+
+}
+.newsletter_badge h2{
+    font-size: 32px;
+    color: white;
+    font-weight: 800;
 
 }
 /* responsive */
@@ -856,10 +877,37 @@ nav{
             newsletter part css end
 ============================================== */
 /* ==============================================
-            nav part css start
+            footer part css start
 ============================================== */
+footer{
+    background: #1C2930;
+    padding: 70px 0 50px;
+    text-align: center;
+    margin-top: 172px;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.7);
+    width: 769px;
+    margin: 0 auto 35px;
+}
+.footer_social{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-bottom: 60px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3)
+}
+.footer_social i{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    margin-top: 50px;
+}
 /* ==============================================
-            nav part css end
+            footer part css end
 ============================================== */
 /* ==============================================
             nav part css start
